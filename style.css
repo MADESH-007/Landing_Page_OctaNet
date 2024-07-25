@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background-color: #DEF9C4;
+}
+
+.nav__logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.nav__logo-1{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+
+.corp__name{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+
+.logo__img{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    padding-right: 8px;
+}
+
+.nav__links{
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.nav__link{
+    margin-left: 35px;
+    font-size: 21px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #254336;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+}
+
+.nav__order-btn{
+    margin-left: 13px;
+    margin-right: 20px;
+    height: 38px;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.nav__order-btn:hover{
+    transform: translateY(-5px);
+}
+
+.home__img{
+    height: 90vh;
+    width: 100%;
+}
+.food__hero{
+ background-color: #DEF9C4;
+ height: 400px;
+ padding-left: 30px;
+ padding-right: 30px;
+}
+
+.food__hero-content{
+    padding-top: 100px; 
+    
+}
+
+.food__hero-content h1{
+    color: #254336;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.food__hero-content p{
+    color: #254336;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.food__hero-img-container-1 {
+    position: absolute;
+    right: 42%;
+    top: 30%;
+    box-shadow: #8888 1px 1px 1px 2px;
+    border-radius: 13px;
+    border: none;
+    outline: none;
+    height: 180px;
+    width: 190px;
+}
+
+.food__hero-img-container-2 {
+    position: absolute;
+    left: 62%;
+    top: 45%;
+    border-radius: 13px;
+    height: 180px;
+    width: 190px;
+    box-shadow: #8888 1px 1px 1px 2px;
+}
+
+.food__hero-img-container-3 {
+    position: absolute;
+    left: 80%;
+    height: 180px;
+    width: 190px;
+    top: 35%;
+    bottom: 30%;
+    border-radius: 13px;
+    box-shadow: #8888 1px 1px 1px 2px;
+}
+
+.food__hero-img-1{
+    height: 180px;
+    width: 190px;
+    border-radius: 4px;
+}
+
+.food__hero-img-2{
+    height: 180px;
+    width: 190px;
+    border-radius: 4px;
+}
+
+.food__hero-img-3{
+    height: 180px;
+    width: 190px;
+    border-radius: 4px;
+}
+
+.food__hero-btn{
+    background-color: transparent;
+    border:4px  2px black;
+    padding: 10px;
+    width: 100px;
+    border-radius: 12px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.food__hero-btn:hover{
+    transform: translateY(-5px);
+}
+
+.food__info{
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+.food__info-title{
+    font-size: 40px;
+    text-align: center;
+    color: #254336;
+    font-weight: 900;
+}
+
+.food__info-cards{
+margin-top: 70px;
+ display: flex;
+
+}
+
+.food__info-card{
+ background-color: aliceblue;
+ text-align: center; 
+ width: 400px;  
+ margin-left: 20px;
+ padding: 25px;
+ transition: transform .5s ease;
+ border-radius: 12px;
+ cursor: pointer; 
+}
+
+.food__info-card:hover{
+    transform: translateY(-5px);
+}
+
+.food__info-img{
+    width: 100px;
+    height: 100px;
+}
+
+.food__footer{
+    background-color: #365E32;
+}
+
+.food__footer-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food__footer-contact{
+    align-self: center;
+    color: white;
+    
+}
+
+.food__footer-contact h1{
+   font-size: 20px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   letter-spacing: 4px;
+   font-weight: 400;
+}
+
+.food__footer-contact p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+
+ .right{
+    color: rgba(0,0,0,0.2);
+    padding: 12px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+ }
